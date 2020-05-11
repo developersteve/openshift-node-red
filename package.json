@@ -1,0 +1,31 @@
+{
+  "name": "Node-Red",
+  "version": "1.0.0",
+  "description": "Node RED on Openshift",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "node-red"
+  ],
+  "scripts": {
+    "build": "true",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+
+  "dependencies": {
+    "express": "4.x",
+    "node-red": ">= 1.0",
+    "atob": "1.1.2",
+    "basic-auth-connect": "1.0.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
