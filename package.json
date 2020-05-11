@@ -20,7 +20,7 @@
   "dependencies": {
     "express": "4.x",
     "node-red": ">= 1.0",
-    "atob": "1.1.2",
+    "atob": "2.1.2",
     "basic-auth-connect": "1.0.0"
   },
   "devDependencies": {},
